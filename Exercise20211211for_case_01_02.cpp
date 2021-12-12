@@ -5,11 +5,12 @@ using namespace std;
 int main()
 {
     int m,n;
-    cout<<"請輸入矩陣大小";
+    cout<<"請輸入矩陣大小(需輸入兩個數):";
     cin>>m>>n;
     int f;
-    cout<<"共有幾個輸入九宮格:";
-    cin>>f;
+    //cout<<"共有幾個輸入九宮格:";
+    //cin>>f;
+    f = 1;
     int x[f],y[f];
     for (size_t i = 0; i < f; i++)
     {
