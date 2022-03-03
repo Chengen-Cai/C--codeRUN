@@ -59,7 +59,6 @@ int OutLinkList(LinkedList* in1,int a)
     }
     return 0;
 }
-
 void inCrease_LikedList(LinkedList* in1,int a)
 {
     while (in1->next!=NULL)
